@@ -1,0 +1,93 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body styling */
+body {
+    background-color: #f5e1d8;
+    color: #4a3b33;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4a3b33;
+    color: #fff;
+}
+
+.navbar span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.navbar nav a:hover {
+    color: #f5e1d8;
+}
+
+/* Main content */
+main {
+    text-align: center;
+    margin: 20px;
+}
+
+main h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #4a3b33;
+}
+
+/* Background image */
+main {
+    background-image: url('./images/cookies.jpg'); /* Replace with your image file */
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    border-radius: 10px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Footer styling */
+footer {
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #f5e1d8;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+footer span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 1rem;
+}
+
+footer .emoji {
+    font-size: 1.2rem;
+}
