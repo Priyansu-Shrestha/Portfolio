@@ -7,7 +7,30 @@
             background-color: #AB886D;
             border-radius: 10px;
         }
-        #coffee{
-            display: flex;
-            justify-content: center;
+        .coffee{
+            position: absolute;
+            right: 70px;
+            top: 12px;
         }
+        .coffee1{
+            position: relative;
+            top: -70px;
+            left: 50px;
+        }
+#pp{
+    margin: 1px auto;
+    background-image: url(./images/Priyansu.jpg);
+    height: 10rem;
+    width: 10rem;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+.marq{
+    background-color: red;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 60%;
+}
